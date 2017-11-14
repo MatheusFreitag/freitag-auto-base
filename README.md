@@ -32,7 +32,7 @@ Keep this in mind, we will modify this file later.
 ```javascript
 npm i freitag-auto-base --save
 ```
-It might take a few minutes to complete install the package, so don't worry.
+It might take a few minutes to completely install the package, so don't worry.
 
 5. After instalation, modify the _package.json_ file to insert the _baseGenerate_ script. Your _package.json_ should look as follows:
 
@@ -69,3 +69,5 @@ Your skeleton is done! You have a structure inside the _myApp_ directory that lo
 +-- gulpfile.js
 └── index.html //Your main html file
 ```
+
+7. To finally launch your app, type ```gulp``` and the browser will launch a live preview of your app.
