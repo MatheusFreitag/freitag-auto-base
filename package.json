@@ -1,0 +1,22 @@
+{
+  "name": "freitag-auto-base",
+  "version": "1.0.1",
+  "description": "This package builds the structure for development of node apps wirh stylus, browser-synch and gulp",
+  "main": "structure.js",
+  "bin":{
+    "generateBase": "structure.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus Freitag",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "browser-sync": "^2.18.13",
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "gulp-stylus": "^2.6.0",
+    "gulp-util": "^3.0.8"
+  }
+}
