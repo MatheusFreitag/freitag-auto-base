@@ -12,7 +12,7 @@ mkdir myApp
 ```javascript 
 npm init
 ```
-This will generate the pacjake.json that we all know:
+This will generate the package.json that we all know:
 ```javascript 
 {
   "name": "package-name",
