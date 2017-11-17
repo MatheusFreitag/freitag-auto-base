@@ -26,14 +26,14 @@ if (fs.existsSync("./public/stylus")) {
 //Se o Gulpfile não existe, crio
 if (!fs.exists("./gulpfile.js")){
     fs.writeFile("./gulpfile.js", contents.gulpfileContent, ()=>{
-        console.log('Gulpfile criado');
+        console.log('Gulpfile created');
     })
 }
 
 //Se o index.js não existe, crio
 if (!fs.exists("./index.js")) {
     fs.writeFile("./index.js", contents.indexJSContent, () => {
-        console.log('index.js criado');
+        console.log('index.js created');
     })
 }
 
@@ -41,7 +41,7 @@ if (!fs.exists("./index.js")) {
 //Se o index.html não existe, crio
 if (!fs.exists("./index.html")) {
     fs.writeFile("./index.html", contents.indexHTMLContent, () => {
-        console.log('index.html criado');
+        console.log('index.html created');
     })
 }
 

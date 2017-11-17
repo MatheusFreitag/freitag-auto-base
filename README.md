@@ -51,7 +51,7 @@ It might take a few minutes to completely install the package, so don't worry.
 }
 ```
 
-6. Finally, type in the command-line ``` npm baseGenerate ```
+6. Finally, type in the command-line ``` npm run baseGenerate ```
 
 Your skeleton is done! You have a structure inside the _myApp_ directory that look as follows:
 ```

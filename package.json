@@ -1,6 +1,6 @@
 {
   "name": "freitag-auto-base",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "This package builds the structure for development of node apps wirh stylus, browser-synch and gulp",
   "main": "structure.js",
   "bin":{
